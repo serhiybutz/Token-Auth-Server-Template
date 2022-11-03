@@ -13,6 +13,12 @@
 
 A Vapor server that uses token-based authentication. The client side is represented by the repository [Token-Auth-Client-Template](https://github.com/serhiybutz/Token-Auth-Client-Template.git), which is an iOS app. Since the server uses an SQLite database, no Docker installation is required.
 
+### Features
+
+- *Username+password authentication* with *authentication token issuing*.
+- The original password information is not kept, only its *hash* is.
+- Providing some functionality to a user *authorized with a valid authentication token* (with the user's book list maintenance and management as an example)
+
 ### How to run
 
 1. Clone the repository on the command line: `git clone https://github.com/serhiybutz/Token-Auth-Server-Template.git`.
